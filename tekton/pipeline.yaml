@@ -22,7 +22,7 @@ spec:
           workspace: pipeline-workspace          
       taskRef:
         name: cleanup
-
+  
     - name: clone
       workspaces:
         - name: output
